@@ -1,0 +1,91 @@
+html {
+  font-size: 10px;
+  background: url("./backgrounddj.jpg") bottom center;
+  background-color: rgba(#777788, 0.3);
+  background-size: cover;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.keys {
+  opacity: 1;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  /* padding-bottom: 30px; */
+}
+
+.key {
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 0.5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ff8800;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
+
+.head {
+  font-size: 6rem;
+  color: tomato;
+
+  text-shadow: 0 0 4rem black;
+}
+h1 {
+  text-align: center;
+  color: #ffbb00;
+  padding-top: 5px;
+  margin-left: 300.2px;
+  margin-right: 300.2px;
+  padding-left: 0px;
+  padding-right: 0px;
+  /* margin-inline: 1rem;*/
+  padding: 0.2rem 0.1rem;
+  background: rgba(0, 0, 0, 0.103);
+
+  /* display: block; */
+  font-size: 6rem;
+  text-shadow: 0 0 4rem black;
+}
+
+button {
+  border: 0rem solid black;
+  border-radius: 0rem;
+  margin: 0.1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+}
